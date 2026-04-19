@@ -1,0 +1,38 @@
+version: "3.9"
+
+services:
+
+  surveillance:
+    build: .
+    image: smart-surveillance:latest
+    container_name: surveillance_app
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./logs:/app/logs
+      - ./snapshots:/app/snapshots
+      - ./.env:/app/.env:ro
+    devices:
+      - /dev/video0:/dev/video0    # webcam passthrough
+    environment:
+      - CAMERA_SOURCE=0
+      - DEVICE=cpu
+    # Uncomment for GPU:
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - driver: nvidia
+    #           count: 1
+    #           capabilities: [gpu]
+
+  # Optional: Prometheus metrics scraper
+  # prometheus:
+  #   image: prom/prometheus:latest
+  #   ports: ["9090:9090"]
+  #   volumes: ["./prometheus.yml:/etc/prometheus/prometheus.yml"]
+
+volumes:
+  logs:
+  snapshots:

@@ -1,0 +1,60 @@
+2026-04-19 23:24:59 | INFO     | surveillance | ============================================================
+2026-04-19 23:24:59 | INFO     | surveillance |  Smart Surveillance System v1.0
+2026-04-19 23:24:59 | INFO     | surveillance |  Camera  : 0
+2026-04-19 23:24:59 | INFO     | surveillance |  Model   : yolov8m.pt  (device=cpu)
+2026-04-19 23:24:59 | INFO     | surveillance |  Server  : http://0.0.0.0:8000
+2026-04-19 23:24:59 | INFO     | surveillance | ============================================================
+2026-04-19 23:24:59 | INFO     | surveillance | FastAPI startup – launching surveillance pipeline
+2026-04-19 23:24:59 | INFO     | surveillance | Surveillance pipeline started OK
+2026-04-19 23:25:03 | INFO     | surveillance | Loading YOLO model: yolov8m.pt on cpu
+2026-04-19 23:25:48 | INFO     | surveillance | YOLO model loaded OK
+2026-04-19 23:25:48 | INFO     | surveillance | DeepSORT tracker initialized OK
+2026-04-19 23:25:48 | INFO     | surveillance | Opening camera: 0
+2026-04-19 23:26:33 | INFO     | surveillance | Camera released
+2026-04-19 23:26:33 | INFO     | surveillance | Surveillance pipeline stopped
+2026-04-19 23:40:03 | INFO     | surveillance | ============================================================
+2026-04-19 23:40:03 | INFO     | surveillance |  Smart Surveillance System v1.0
+2026-04-19 23:40:03 | INFO     | surveillance |  Camera  : 0
+2026-04-19 23:40:03 | INFO     | surveillance |  Model   : yolov8m.pt  (device=cpu)
+2026-04-19 23:40:03 | INFO     | surveillance |  Server  : http://0.0.0.0:8000
+2026-04-19 23:40:03 | INFO     | surveillance | ============================================================
+2026-04-19 23:40:03 | INFO     | surveillance | FastAPI startup – launching surveillance pipeline
+2026-04-19 23:40:03 | INFO     | surveillance | Surveillance pipeline started OK
+2026-04-19 23:40:07 | INFO     | surveillance | Loading YOLO model: yolov8m.pt on cpu
+2026-04-19 23:40:07 | INFO     | surveillance | YOLO model loaded OK
+2026-04-19 23:40:08 | INFO     | surveillance | DeepSORT tracker initialized OK
+2026-04-19 23:40:08 | INFO     | surveillance | Opening camera: 0
+2026-04-19 23:41:58 | INFO     | surveillance | Camera released and windows closed
+2026-04-19 23:41:58 | INFO     | surveillance | Surveillance pipeline stopped
+2026-04-19 23:47:35 | INFO     | surveillance | ============================================================
+2026-04-19 23:47:35 | INFO     | surveillance |  Smart Surveillance System v1.0
+2026-04-19 23:47:35 | INFO     | surveillance |  Camera  : 0
+2026-04-19 23:47:35 | INFO     | surveillance |  Model   : yolov8n.pt  (device=cpu)
+2026-04-19 23:47:35 | INFO     | surveillance |  Server  : http://0.0.0.0:8000
+2026-04-19 23:47:35 | INFO     | surveillance | ============================================================
+2026-04-19 23:47:35 | INFO     | surveillance | FastAPI startup – launching surveillance pipeline
+2026-04-19 23:47:35 | INFO     | surveillance | Surveillance pipeline started OK
+2026-04-19 23:47:39 | INFO     | surveillance | Loading YOLO model: yolov8n.pt on cpu
+2026-04-19 23:47:44 | INFO     | surveillance | YOLO model loaded OK
+2026-04-19 23:47:45 | INFO     | surveillance | DeepSORT tracker initialized OK
+2026-04-19 23:47:45 | INFO     | surveillance | Opening camera: 0
+2026-04-19 23:48:20 | WARNING  | surveillance | ALERT [HIGH] EventType.FALL: Possible fall – person #4 horizontal (w/h=1.51)
+2026-04-19 23:48:20 | INFO     | surveillance | Snapshot saved: snapshots\fall_20260419_181820_052512e82094.jpg
+2026-04-19 23:48:20 | INFO     | surveillance | Alert stored: EventType.FALL (id=052512e82094)
+2026-04-19 23:48:25 | WARNING  | surveillance | ALERT [HIGH] EventType.FALL: Possible fall – person #4 horizontal (w/h=1.53)
+2026-04-19 23:48:25 | INFO     | surveillance | Snapshot saved: snapshots\fall_20260419_181825_8e0f6ac879f5.jpg
+2026-04-19 23:48:25 | INFO     | surveillance | Alert stored: EventType.FALL (id=8e0f6ac879f5)
+2026-04-19 23:48:30 | WARNING  | surveillance | ALERT [HIGH] EventType.FALL: Possible fall – person #4 horizontal (w/h=1.52)
+2026-04-19 23:48:30 | INFO     | surveillance | Snapshot saved: snapshots\fall_20260419_181830_b12c12e7c224.jpg
+2026-04-19 23:48:30 | INFO     | surveillance | Alert stored: EventType.FALL (id=b12c12e7c224)
+2026-04-19 23:48:47 | WARNING  | surveillance | ALERT [HIGH] EventType.FALL: Possible fall – person #13 horizontal (w/h=2.63)
+2026-04-19 23:48:47 | INFO     | surveillance | Snapshot saved: snapshots\fall_20260419_181847_4b20e3d1d32b.jpg
+2026-04-19 23:48:47 | INFO     | surveillance | Alert stored: EventType.FALL (id=4b20e3d1d32b)
+2026-04-19 23:48:53 | WARNING  | surveillance | ALERT [HIGH] EventType.FALL: Possible fall – person #13 horizontal (w/h=2.42)
+2026-04-19 23:48:53 | INFO     | surveillance | Snapshot saved: snapshots\fall_20260419_181853_8e3116cd8fa6.jpg
+2026-04-19 23:48:53 | INFO     | surveillance | Alert stored: EventType.FALL (id=8e3116cd8fa6)
+2026-04-19 23:48:58 | WARNING  | surveillance | ALERT [HIGH] EventType.FALL: Possible fall – person #13 horizontal (w/h=2.46)
+2026-04-19 23:48:58 | INFO     | surveillance | Snapshot saved: snapshots\fall_20260419_181858_b06224dd5910.jpg
+2026-04-19 23:48:58 | INFO     | surveillance | Alert stored: EventType.FALL (id=b06224dd5910)
+2026-04-19 23:49:07 | INFO     | surveillance | Camera released and windows closed
+2026-04-19 23:49:07 | INFO     | surveillance | Surveillance pipeline stopped
