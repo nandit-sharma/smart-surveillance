@@ -58,3 +58,17 @@
 2026-04-19 23:48:58 | INFO     | surveillance | Alert stored: EventType.FALL (id=b06224dd5910)
 2026-04-19 23:49:07 | INFO     | surveillance | Camera released and windows closed
 2026-04-19 23:49:07 | INFO     | surveillance | Surveillance pipeline stopped
+2026-04-20 10:03:38 | INFO     | surveillance | ============================================================
+2026-04-20 10:03:38 | INFO     | surveillance |  Smart Surveillance System v1.0
+2026-04-20 10:03:38 | INFO     | surveillance |  Camera  : 0
+2026-04-20 10:03:38 | INFO     | surveillance |  Model   : yolov8n.pt  (device=cpu)
+2026-04-20 10:03:38 | INFO     | surveillance |  Server  : http://0.0.0.0:8000
+2026-04-20 10:03:38 | INFO     | surveillance | ============================================================
+2026-04-20 10:03:38 | INFO     | surveillance | FastAPI startup – launching surveillance pipeline
+2026-04-20 10:03:38 | INFO     | surveillance | Surveillance pipeline started OK
+2026-04-20 10:03:52 | INFO     | surveillance | Loading YOLO model: yolov8n.pt on cpu
+2026-04-20 10:03:52 | INFO     | surveillance | YOLO model loaded OK
+2026-04-20 10:04:07 | INFO     | surveillance | DeepSORT tracker initialized OK
+2026-04-20 10:04:07 | INFO     | surveillance | Opening camera: 0
+2026-04-20 10:05:58 | INFO     | surveillance | Camera released and windows closed
+2026-04-20 10:05:58 | INFO     | surveillance | Surveillance pipeline stopped
